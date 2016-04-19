@@ -6,12 +6,169 @@
 </head>
 
 <body>
-    <div class="container">
+<div class="container">
         <div class="jumbotron">
-            <h1>Fun with Bootstrap</h1>
-            <p>Finally, after 9 labs of work, you can have some fun.</p>
+            <h1>Fun with Bootstrap: Lab 10</h1>
+            <p>Swami and Friends by RK Narayan</p>
+            <p>Designed by - Sapna Bhat</p>
         </div>
+        
+         <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#about">About</a></li>
+            <li><a data-toggle="tab" href="#characters">Characters</a></li>
+            <li><a data-toggle="tab" href="#author">Author</a></li>
+            <li><a data-toggle="tab" href="#Comments">Comments</a></li>
+         </ul>
+        
+        <div class="tab-content">
+            <div id="about" class="tab-pane fade in active">
+                <h3> About the book </h3>
+                <p> Swami and Friends is the first of a trilogy of novels written by RK Narayan (1906–2001), English language novelist from India. The novel, Narayan's first, is set in British India in a fictional town called Malgudi. The second and third books in the trilogy are "The Bachelor of Arts" and "The English Teacher". "Malgudi Schooldays" is a slightly abridged version of Swami and Friends, and includes two additional stories featuring Swami from "Malgudi Days" and "Under the Banyan Tree".
+                </p>     
+            </div>
+            
+            <div id="characters" class="tab-pane fade">
+                <h3>Main Characters</h3>
+                <p>Click on each of the MODALS</p>
+                <div class="list-group">
+                    <a href="#" class="list-group-item" data-toggle="modal" data-target="#swami">Swami</a>
+                    <a href="#" class="list-group-item" data-toggle="modal" data-target="#mani">Mani</a>
+                    <a href="#" class="list-group-item" data-toggle="modal" data-target="#rajam">Rajam</a>
+                </div>
+                
+                <!-- Swami MODAL-->
+                <div class="modal fade" id="swami" role="dialog">
+                <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Swami</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>A ten-year-old boy studying at Albert Mission School, Malgudi. He lives in Vinayaka Mudali Street. He is later transferred to Board High School.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+                <!-- Mani MODAL-->
+                <div class="modal fade" id="mani" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Mani</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Swami's classmate at Albert Mission School, lives in Abu Lane, he is known as Mighty good for nothing. Carries around a club sometimes, and threatens to beat his enemies to a pulp.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+                
+            <!-- Rajam MODAL -->
+            <div class="modal fade" id="rajam" role="dialog">
+                <div class="modal-dialog">
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="modal-title">Rajam</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Swami's classmate at Albert Mission School, lives in Lawley Extension. His father is the Deputy Police Superintendent of Malgudi. He previously studied at an English Boys' School, Madras. He is also the Captain of Malgudi Cricket Club (Victory Union Eleven). His father gets transferred to Trichinopoly.
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            
+            </div>
+            
+            
+        
+        </div>
+        
+    <div id="spin_offs" class="tab-pane fade">
+            <h3>RK Narayan</h3>
+            <p>Click on each of them to know some trivia about the author.</p>
+
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">Writing Style</a>
+                        </h4>
+                    </div>
+                    <div id="collapse1" class="panel-collapse collapse in">
+                        <div class="panel-body">Narayan's writing technique was unpretentious with a natural element of humour about it. It focused on ordinary people, reminding the reader of next-door neighbours, cousins and the like, thereby providing a greater ability to relate to the topic.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">Malgudi</a>
+                        </h4>
+                    </div>
+                    <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">Malgudi is a fictional, semi-urban town in southern India, conjured by Narayan.[86] He created the town in September 1930, on Vijayadashami, an auspicious day to start new efforts and thus chosen for him by his grandmother.</div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">
+                            <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">Critical Reception</a>
+                        </h4>
+                    </div>
+                    <div id="collapse3" class="panel-collapse collapse">
+                        <div class="panel-body">Having published many novels, essays and short stories, Narayan is credited with bringing Indian writing to the rest of the world.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    
+    
+    <h3>Popular books by RK Narayan</h3>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>The Bachelor of Arts</strong></div>
+                <div class="panel-body">The story describes the complex transition of an adolescent mind into adulthood and the heartbreak which a youth faces. It revolves around a young man named Chandran, who resembles an Indian upper middle class youth of the pre-independence era. First, Chandran's college life in late colonial times is described. After graduation, he falls in love with a girl, but will be rejected by the bride's parents, since his horoscope describes him as a manglik, a condition in which a manglik can only marry another manglik and if not, the non-manglik will die.
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>The Financial Expert</strong></div>
+                <div class="panel-body">The Financial Expert is a 1952 novel by R. K. Narayan. It takes place, as do many other novels and short stories by this author, in the town of Malgudi. The central character in this book is the financial expert Margayya, who offers advice to his fellow       townspeople from under his position at the banyan tree. He is a man of many aspirations and this novel delves into some level of psychological analysis.
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel panel-default">
+                <div class="panel-heading"><strong>The Vendor of Sweets</strong></div>
+                    <div class="panel-body">The main characters are Jagan and his son Mali. It revolves around the issues arising from the generation gap between father and son. Narayan in his superb style narrates the pr of his role in India's freedom struggle during his youth. Gita forms the staple of his life. He tries to act on the principles described in the great epic. Naturopathy forms the pivotal of his life and he even desires to publish his natural way of living in the form of a book, but obviously it is a futile dream as the draft has been gathering dust in the publisher’s office for the last five years.
+                    </div>
+                </div>
+        </div>     
     </div>
+
+</div>
 
     <% include ../partials/scripts %>
 </body>
